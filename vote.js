@@ -16,7 +16,7 @@ async function castVote() {
 
     try {
 
-        const response = await fetch("http://localhost:3000/api/vote", {
+        const response = await fetch("/api/vote", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
