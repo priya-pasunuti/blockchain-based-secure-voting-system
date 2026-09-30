@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Storage</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h2>Blockchain Storage</h2>
+
+        <p><b>Voter ID:</b> <span id="voterId"></span></p>
+
+        <p><b>Voter Name:</b> <span id="voterName"></span></p>
+
+        <p><b>Selected Party:</b> <span id="party"></span></p>
+
+        <p><b>Timestamp:</b> <span id="time"></span></p>
+
+        <p><b>Previous Hash:</b></p>
+        <textarea id="previousHash" rows="2" readonly></textarea>
+
+        <p><b>Current Hash:</b></p>
+        <textarea id="currentHash" rows="2" readonly></textarea>
+
+        <br><br>
+
+        <button onclick="viewResult()">View Results</button>
+
+    </div>
+
+</div>
+
+<script src="blockchain.js"></script>
+
+</body>
+</html>

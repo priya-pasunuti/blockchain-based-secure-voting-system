@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cast Your Vote</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="card">
+
+        <h2>Cast Your Vote</h2>
+
+        <label>
+            <input type="radio" name="party" value="Campus Unity Party">
+            Campus Unity Party (CUP)
+        </label>
+        <br><br>
+
+        <label>
+            <input type="radio" name="party" value="Students First Alliance">
+            Students First Alliance (SFA)
+        </label>
+        <br><br>
+
+        <label>
+            <input type="radio" name="party" value="Future Leaders Party">
+            Future Leaders Party (FLP)
+        </label>
+        <br><br>
+
+        <label>
+            <input type="radio" name="party" value="Voice of Students">
+            Voice of Students (VOS)
+        </label>
+        <br><br>
+
+        <label>
+            <input type="radio" name="party" value="Campus Progress Party">
+            Campus Progress Party (CPP)
+        </label>
+
+        <br><br>
+
+        <button onclick="castVote()">Cast Vote</button>
+
+        <p id="message"></p>
+
+    </div>
+</div>
+
+<script src="vote.js"></script>
+
+</body>
+</html>

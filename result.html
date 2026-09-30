@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Election Results</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h2>Election Results</h2>
+
+        <table border="1" width="100%" cellpadding="10">
+
+            <tr>
+                <th>Party Name</th>
+                <th>Total Votes</th>
+            </tr>
+
+            <tr>
+                <td>Campus Unity Party</td>
+                <td id="CUP">0</td>
+            </tr>
+
+            <tr>
+                <td>Students First Alliance</td>
+                <td id="SFA">0</td>
+            </tr>
+
+            <tr>
+                <td>Future Leaders Party</td>
+                <td id="FLP">0</td>
+            </tr>
+
+            <tr>
+                <td>Voice of Students</td>
+                <td id="VOS">0</td>
+            </tr>
+
+            <tr>
+                <td>Campus Progress Party</td>
+                <td id="CPP">0</td>
+            </tr>
+
+        </table>
+
+        <br>
+
+        <h3 id="winner"></h3>
+
+        <button onclick="logout()">Logout</button>
+
+    </div>
+
+</div>
+
+<script src="result.js"></script>
+
+</body>
+</html>
